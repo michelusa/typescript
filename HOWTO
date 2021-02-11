@@ -1,0 +1,10 @@
+setting up:
+
+sudo apt install -y npm
+npm install typescript --save-dev
+sudo apt install node-typescript
+tsc --version
+
+compile to js and run:
+tsc hello.ts
+node hello.js
